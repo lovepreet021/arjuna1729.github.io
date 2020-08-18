@@ -1,5 +1,6 @@
 body {
   background: aquamarine;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -15,5 +16,7 @@ header {
 
 section {
   border: 2px solid whitesmoke;
-  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
 }
