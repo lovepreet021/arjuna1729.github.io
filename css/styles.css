@@ -10,9 +10,9 @@ main {
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
   background: black;
   color: rgb(6, 147, 147);
   margin-bottom: 30px;
@@ -20,14 +20,34 @@ header {
 }
 
 .header {
-  margin-top: 150px;
+  margin-top: 100px;
+  text-align: left;
 }
 
-.header_para {
-  margin-top: 200px;
+.line {
+  margin-top: 100px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color:rgb(6, 147, 147);
+  width: 2px;
 }
 
+.intro {
+  margin-top: 100px;
+  text-align: left;
+
+}
+
+/*
 section {
+  width: 100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background:rgb(20, 188, 188);
+  padding: 5px;
+
+}
+*/
+
+.container {
   border: 2px solid rgb(6, 147, 147);
   border-radius: 10px;
   margin-bottom: 20px;
