@@ -1,62 +1,55 @@
-body {
-  background:rgb(6, 147, 147);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
   margin: 0px;
-  margin-top: -25px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 main {
-  padding: 15px;
+  color: white;
+  padding: 0px;
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(30,87,153,1) 17%,rgba(41,137,216,1) 60%);
 }
 
-header {
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+.socialmedia {
+  padding: 10px;
   display: flex;
   justify-content: center;
-  padding: 100px;
-  background: black;
-  color: rgb(6, 147, 147);
-  margin-bottom: 30px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  position: center;
+  align-items: space-around;
+  color: rgb(248, 246, 246);
 }
 
-.header {
-  margin-top: 100px;
-  text-align: left;
+.socialmedia a {
+  margin: 10px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.line {
-  margin-top: 100px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-  background-color:rgb(6, 147, 147);
-  width: 2px;
-}
-
-.intro {
-  margin-top: 100px;
-  text-align: left;
-
-}
-
-/*
-section {
-  width: 100%;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-  background:rgb(20, 188, 188);
-  padding: 5px;
-
-}
-*/
-
-.container {
-  border: 2px solid rgb(6, 147, 147);
+.area {
+  border: 2px solid linear-gradient(to right, rgba(30,87,153,1) 17%,rgba(41,137,216,1) 60%);;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-right: 70px;
   margin-left: 70px;
-  padding-left: 10px;
+  padding: 10px;
   background-color: black;
   color: rgb(6, 147, 147);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.area2 ul li {
+  list-style-type: none;
 }
 
 footer {
