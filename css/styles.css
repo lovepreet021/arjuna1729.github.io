@@ -84,14 +84,6 @@ h1, h2 {
   justify-content: space-around;
   margin-bottom: 10px;
 }
-
-footer {
-  bottom: 0;
-  width: 100%;
-  color: white;
-  background-color: #45474b;
-}
-
 .item , .work-card{
   height: 110px;
   width: 100px;
