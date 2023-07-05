@@ -1,3 +1,3 @@
-# arjuna1729.github.io
+# lovepreet021.github.io
 
 # Portfolio of Lovepreet Singh.
